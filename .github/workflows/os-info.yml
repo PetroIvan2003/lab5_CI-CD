@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Run the command uname -v 
+      - name: Display info OS 
         run: uname -v
