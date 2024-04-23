@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Отримання поточного системного часу
+      - name: Print System Date
         run: |
           echo "$(date +'%Y-%m-%d %H:%M:%S')"
