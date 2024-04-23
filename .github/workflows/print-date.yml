@@ -1,12 +1,13 @@
-name: Display Current Date
+name: Друк поточного системного часу
 
 on:
   push:
 
 jobs:
-  print-current-date:
+  print-date:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Display current date
-        run: date
+      - name: Отримання поточного системного часу
+        run: |
+          echo "$(date +'%Y-%m-%d %H:%M:%S')"
