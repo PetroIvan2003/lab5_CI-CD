@@ -1,0 +1,13 @@
+name: Display Current Date
+
+on:
+  push:
+
+jobs:
+  print-current-date:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Display current date
+        run: |
+          echo: "Поточна дата: date"
