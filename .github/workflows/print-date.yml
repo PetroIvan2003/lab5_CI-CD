@@ -1,4 +1,4 @@
-name: Друк поточного системного часу
+name: System Date
 
 on:
   push:
