@@ -9,5 +9,4 @@ jobs:
     
     steps:
       - name: Display current date
-        run: |
-          date
+        run: date
